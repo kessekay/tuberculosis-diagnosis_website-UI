@@ -11,8 +11,38 @@
       <header>
         <h3>Tubercolosis Detection System</h3>
       </header>
-      <section>
-        
+      <section style="background-color: #ffff; height: 100%;">
+        <h1 class="" style="margin: 1rem ;">Prediction</h1>
+        <div style="margin-left: 1rem; margin-top: 2rem;">
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <div style="color: rgb(233, 0, 0); font-size: 20px;">* This field is required</div>
+            <div>
+              <label for="PatientId" style="font-size: 20px;">PatientId:</label>
+              <input type="text" name="" id="" style="padding: 5px;">
+            </div>
+            <div style="color: rgb(233, 0, 0); font-size: 20px;">* This field is required</div>
+            <div style="color: rgb(233, 0, 0); font-size: 20px;">Image:</div>
+            <input type="file" name="" id="">
+            <span style="display: block; margin-top: 0.5rem; margin-bottom: 2rem;">
+              <button style="background-color: rgb(232, 231, 231); color: rgb(233, 0, 0); border: 1px solid rgb(194, 194, 194); width: 6rem; height: 40px; padding: 0px;">Upload</button>
+            </span>
+          </div>
+          <div style="width: 85%; margin: 0px auto; font-size: 20px;">
+            <div class="cols">
+              
+              <h4>PatientId: 001</h4>
+            </div>
+            <div class="cols-2">
+              <div>
+                <img src="/scan.png" alt="img" srcset="" style="object-fit: cover; width: 200px;">
+              </div>
+            </div>
+            <span style="display: flex;">
+              <button style="margin: 0px auto; background-color: rgb(0, 0, 222); color: #ffff; height: 3rem;">Click to Diagnose</button>
+            </span>
+            <p style="font-weight: bold; font-size: 30px;">Prediction Score: <span>99.92%</span></p>
+          </div>
+        </div>
       </section>
       <footer>
         <p>Project Year Project</p>
