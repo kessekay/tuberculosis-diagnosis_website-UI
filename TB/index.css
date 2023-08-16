@@ -35,6 +35,10 @@ header {
   background-color: rgba(0, 0, 0, 0.413);
 }
 
+h1 {
+  font-size: 30px;
+}
+
 h3 {
   font-size: 30px;
   color: #ffff;
@@ -61,6 +65,24 @@ button:hover {
 .predictBtn {
   background-color: dodgerblue;
   color: white;
+}
+
+label {
+  color: rgb(233, 0, 0);
+}
+
+.cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  height: 200px;
 }
 
 footer {
